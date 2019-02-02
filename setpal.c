@@ -16,7 +16,7 @@
 #define PROGRAM_NAME "SETPAL"
 
 /* The byte offset to where the palette data block is stored in SETPAL's binary.*/
-#define SELF_PAL_BLOCK_OFFS 0x2527
+#define SELF_PAL_BLOCK_OFFS 0x2524
 
 /* The byte offsets in RALLYE.EXE of the different palettes. There are four palettes in total
  * in that file, but this list ignores the one that isn't used at all by the game.*/
