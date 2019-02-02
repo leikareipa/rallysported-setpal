@@ -6,6 +6,8 @@ SETPAL acts as both the container and delivery mechanism for these modifications
 ## Usage
 Place `SETPAL.EXE` into Rally-Sport's directory, and run it via the command line (preferably under DOS or DOSBox) with the -? switch to receive further instructions on its use.
 
+Note that while SETPAL's command line accepts RGB values in the range 0..255, colors in VGA mode 13h are in the range 0..63. Thus, when you enter e.g. 255,255,255 for white, it's stored as 63,63,63, and reported back as 252,252,252.
+
 ## Building
 A script for building SETPAL using Borland's Turbo C 2 for DOS is provided under the `bin` directory; but you could use some other ANSI C-compatible DOS compiler, too.
 
