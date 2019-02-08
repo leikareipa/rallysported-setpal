@@ -6,6 +6,8 @@ SETPAL acts as both the container and delivery mechanism for these modifications
 ## Usage
 Place `SETPAL.EXE` into Rally-Sport's directory, and run it via the command line (preferably under DOS or DOSBox) with the -? switch to receive further instructions on its use.
 
+There are three separate palettes stored inside `SETPAL.EXE`, 0 through 2. Which of them you should operate on depends on which tracks in the game you want the changes to affect: palette 0 applies to tracks 1-7 excluding 5, palette 1 applies to track 5, and palette 2 applies to track 8.
+
 Note that while SETPAL's command line accepts RGB values in the range 0..255, colors in VGA mode 13h are in the range 0..63. Thus, when you enter e.g. 255,255,255 for white, it's stored as 63,63,63, and reported back as 252,252,252.
 
 ## Building
